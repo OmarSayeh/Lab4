@@ -8,8 +8,8 @@ def fibonacci(n):
     for _ in range(n - 2):
         a ,b = b , a + b
 
-    #return b
-    print(f"fibonacci({n}) == {b}")
+    return b
+    #print(f"fibonacci({n}) == {b}")
 
 
 fibonacci(6)
