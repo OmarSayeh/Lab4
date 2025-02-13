@@ -12,7 +12,7 @@ def fibonacci(n):
     #print(f"fibonacci({n}) == {b}")
 
 
-fibonacci(6)
+#fibonacci(6)
 
 def is_prime(n):
     if n<=0 :
@@ -53,7 +53,7 @@ def print_prime_factors(n):
     result += " * ".join(map(str, factors))
     print(result)
 
-print_prime_factors(2475)
+#print_prime_factors(2475)
 
 
 
